@@ -1,0 +1,42 @@
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body { margin: 0; }
+
+section {
+    max-width: 20%;
+    margin: 6em auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.375em;
+    text-align: left;
+}
+
+input {
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border-radius: 0.375em;
+}
+
+input[type="date"] {
+    border-width: thin;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    color: white;
+    background-color: black;   
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
