@@ -17,20 +17,24 @@
         
         <h2>Age Calculator</h2>
 
-        <form action="">
+        <form name="ageCalculator" action="">
 
             <label for="">Enter your birth date:</label>
-            <input type="date">
+            <input type="date" name="birthDate">
 
-            <input type="submit" value="Calculate">
+            <input type="button" value="Calculate" onclick="calculateAge()">
 
         </form>
 
         <hr>
 
-        <p>You are <b>0 years 0 months</b> old.</p>
+        <p>You are <b id="ageOutput">0 years 0 months</b> old.</p>
 
     </section>
+
+
+    <script src="node_modules/moment/moment.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
